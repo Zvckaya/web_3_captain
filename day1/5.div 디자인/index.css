@@ -1,0 +1,16 @@
+.profile{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.name{
+    text-align: center; font-size: 16; 
+}
+p{
+    text-align: center;
+}
+#special{
+    font-size: 18px;
+    font-weight: bold;
+}
+
