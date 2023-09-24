@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="alert-box" id="id">
+        <p id="title"> ID입력 </p>
+        <button>닫기</button>
+      </div>
+      <div class="alert-box" id="pw">
+        <p id="title"> PW입력 </p>
+        <button>닫기</button>
+      </div>
+    <button onclick="show_id()">아이디</button>
+    <button onclick="show_pw()">비번</button>
+</body>
+<script>
+    function show_id(){
+        document.getElementById('id').style.display='block'
+    }
+    function show_pw(){
+        document.getElementById('pw').style.display='block'
+    }
+</script>
+</html>

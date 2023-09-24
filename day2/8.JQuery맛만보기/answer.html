@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <p class="hello">안녕하세요</p>
+    <p class="hello">안녕하세요</p>
+    <p class="hello">안녕하세요</p>
+    <button class="test-btn">버튼</button>
+    <button class="test-btn1">버튼</button>
+    <script>
+
+        $('.hello').css('color', 'red')
+        $('.hello').addClass('ADC');
+        $('.hello').addClass('MNC');
+        $('.hello').removeClass('ADC');
+        $('.hello').toggleClass('ADC');
+        $('.hello').html('바보');
+
+        $('.test-btn').click(function () {
+            $('.hello').fadeIn();
+        })
+        $('.test-btn1').on('click', function () {
+            $('.hello').fadeOut();
+        });
+    </script>
+</body>
+
+</html>
